@@ -21,6 +21,11 @@ import { IndexComponent } from "./index/index.component";
 import { ProfilepageComponent } from "./examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
+import { InformacionComponent } from './examples/informacion/informacion.component';
+import { MapaComponent } from './examples/mapa/mapa.component';
+import { RutasComponent } from './examples/rutas/rutas.component';
+import { NavbarComponent } from './examples/shared/navbar/navbar.component';
+import { FooterComponent } from './examples/shared/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -45,7 +50,12 @@ import { LandingpageComponent } from "./examples/landingpage/landingpage.compone
     IndexComponent,
     ProfilepageComponent,
     RegisterpageComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    InformacionComponent,
+    MapaComponent,
+    RutasComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   exports: [
     IndexComponent,
