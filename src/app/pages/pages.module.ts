@@ -26,6 +26,7 @@ import { MapaComponent } from './examples/mapa/mapa.component';
 import { RutasComponent } from './examples/rutas/rutas.component';
 import { NavbarComponent } from './examples/shared/navbar/navbar.component';
 import { FooterComponent } from './examples/shared/footer/footer.component';
+import { VideosComponent } from './examples/videos/videos.component';
 
 @NgModule({
   imports: [
@@ -55,7 +56,8 @@ import { FooterComponent } from './examples/shared/footer/footer.component';
     MapaComponent,
     RutasComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    VideosComponent
   ],
   exports: [
     IndexComponent,

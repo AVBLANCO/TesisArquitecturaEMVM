@@ -1,503 +1,361 @@
-<nav
-  class="navbar navbar-expand-lg fixed-top navbar-transparent"
-  color-on-scroll="100"
-  id="navbar-top"
->
-  <div class="container">
-    <div class="navbar-translate">
-      <a
-        class="navbar-brand"
-        [routerLink]="['/home']"
-        placement="bottom"
-        tooltip="Designed and Coded by Creative Tim"
-      >
-        <span> BLK• </span> Design System Angular
-      </a>
-      <button
-        aria-controls="navigation-index"
-        aria-label="Toggle navigation"
-        class="navbar-toggler navbar-toggler"
-        [attr.aria-expanded]="!isCollapsed"
-        (click)="isCollapsed = !isCollapsed"
-        id="navigation"
-        type="button"
-      >
+<!-- <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100" id="navbar-top">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/home']" placement="bottom" tooltip="Designed and Coded by Creative Tim">
+                <span> BLK• </span> Design System Angular
+            </a>
+            <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler" [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
         <span class="navbar-toggler-bar bar1"> </span>
         <span class="navbar-toggler-bar bar2"> </span>
         <span class="navbar-toggler-bar bar3"> </span>
       </button>
-    </div>
-    <div
-      class="navbar-collapse justify-content-end"
-      [collapse]="isCollapsed"
-      id="navigation"
-    >
-      <div class="navbar-collapse-header">
-        <div class="row">
-          <div class="col-6 collapse-brand"><a> BLK• </a></div>
-          <div class="col-6 collapse-close text-right">
-            <button
-              aria-controls="navigation-index"
-              aria-label="Toggle navigation"
-              class="navbar-toggler"
-              [attr.aria-expanded]="!isCollapsed"
-              (click)="isCollapsed = !isCollapsed"
-              id="navigation"
-              type="button"
-            >
+        </div>
+        <div class="navbar-collapse justify-content-end" [collapse]="isCollapsed" id="navigation">
+            <div class="navbar-collapse-header">
+                <div class="row">
+                    <div class="col-6 collapse-brand"><a> BLK• </a></div>
+                    <div class="col-6 collapse-close text-right">
+                        <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler" [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
               <i class="tim-icons icon-simple-remove"> </i>
             </button>
-          </div>
-        </div>
-      </div>
-      <ul class="navbar-nav">
-        <li class="nav-item p-0">
-          <a
-            class="nav-link"
-            href="https://twitter.com/CreativeTim"
-            placement="bottom"
-            target="_blank"
-            tooltip="Follow us on Twitter"
-          >
-            <i class="fab fa-twitter"> </i>
-            <p class="d-lg-none d-xl-none">Twitter</p>
-          </a>
-        </li>
-        <li class="nav-item p-0">
-          <a
-            class="nav-link"
-            href="https://www.facebook.com/CreativeTim"
-            placement="bottom"
-            target="_blank"
-            tooltip="Like us on Facebook"
-          >
-            <i class="fab fa-facebook-square"> </i>
-            <p class="d-lg-none d-xl-none">Facebook</p>
-          </a>
-        </li>
-        <li class="nav-item p-0">
-          <a
-            class="nav-link"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            placement="bottom"
-            target="_blank"
-            tooltip="Follow us on Instagram"
-          >
-            <i class="fab fa-instagram"> </i>
-            <p class="d-lg-none d-xl-none">Instagram</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/home']"> Back to Kit </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://github.com/creativetimofficial/blk-design-system-angular/issues"
-          >
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item p-0">
+                    <a class="nav-link" href="https://twitter.com/CreativeTim" placement="bottom" target="_blank" tooltip="Follow us on Twitter">
+                        <i class="fab fa-twitter"> </i>
+                        <p class="d-lg-none d-xl-none">Twitter</p>
+                    </a>
+                </li>
+                <li class="nav-item p-0">
+                    <a class="nav-link" href="https://www.facebook.com/CreativeTim" placement="bottom" target="_blank" tooltip="Like us on Facebook">
+                        <i class="fab fa-facebook-square"> </i>
+                        <p class="d-lg-none d-xl-none">Facebook</p>
+                    </a>
+                </li>
+                <li class="nav-item p-0">
+                    <a class="nav-link" href="https://www.instagram.com/CreativeTimOfficial" placement="bottom" target="_blank" tooltip="Follow us on Instagram">
+                        <i class="fab fa-instagram"> </i>
+                        <p class="d-lg-none d-xl-none">Instagram</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/home']"> Back to Kit </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/creativetimofficial/blk-design-system-angular/issues">
             Have an issue?
           </a>
-        </li>
-      </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
-</nav>
+</nav> -->
+
+<app-navbar></app-navbar>
 <div class="wrapper">
-  <div class="page-header">
-    <img class="dots" src="assets/img/dots.png" />
+    <div class="page-header">
 
-    <img class="path" src="assets/img/path4.png" />
+        <img class="path" src="assets/img/path4.png" />
 
+        <div class="container align-items-center">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <h1 class="profile-title text-left">Estrategias de movilidad urbana y conectada</h1>
+                    <h5 class="text-on-back">a</h5>
+                    <div class="btn-wrapper profile pt-3">
+
+                        <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="https://www.mitma.gob.es/areas-de-actividad/arquitectura-vivienda-y-suelo/urbanismo-y-politica-de-suelo/urbanismo-y-sostenibilidad-urbana/estrategia-espan%CC%83ola-de-movilidad-sostenible-eems"
+                            target="_blank">
+                            <i class="fa fa-paperclip"> </i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row justify-content-between align-items-center">
+                        <carousel [showIndicators]="true">
+                            <slide>
+                                <img alt="First slide" class="d-block" src="https://miciudadatodogas.com/wp-content/uploads/2020/09/estrategia-moviliad.jpg" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cucuta, Norte de Santander</h5>
+                                </div>
+                            </slide>
+                        </carousel>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <div class="row justify-content-between align-items-center">
+                        <carousel [showIndicators]="true">
+                            <slide>
+                                <img alt="First slide" class="d-block" src="https://pbs.twimg.com/media/EjZ487iXcAAIjGa?format=jpg&name=900x900" />
+
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cucuta, Norte de Santander</h5>
+                                </div>
+                            </slide>
+
+                        </carousel>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h1 class="profile-title text-left">Estrategia de monitoreo de movilidad (YOLO)</h1>
+                    <h5 class="text-on-back">b</h5>
+                    <div class="btn-wrapper pt-3">
+                        <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="https://www.laopinion.com.co/cucuta/senti-que-me-dieron-en-la-cara-con-la-puerta-203517?platform=hootsuite" target="_blank">
+                            <i class="fa fa-paperclip"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--la 3-->
     <div class="container align-items-center">
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-          <h1 class="profile-title text-left">Mike Scheinder</h1>
-          <h5 class="text-on-back">01</h5>
-          <p class="profile-description">
-            Offices parties lasting outward nothing age few resolve. Impression
-            to discretion understood to we interested he excellence. Him
-            remarkably use projection collecting. Going about eat forty world
-            has round miles.
-          </p>
-          <div class="btn-wrapper profile pt-3">
-            <a
-              class="btn btn-icon btn-twitter btn-round mr-1"
-              href="https://twitter.com/creativetim"
-              target="_blank"
-            >
-              <i class="fab fa-twitter"> </i>
-            </a>
-            <a
-              class="btn btn-icon btn-facebook btn-round mr-1"
-              href="https://www.facebook.com/creativetim"
-              target="_blank"
-            >
-              <i class="fab fa-facebook-square"> </i>
-            </a>
-            <a
-              class="btn btn-icon btn-dribbble btn-round"
-              href="https://dribbble.com/creativetim"
-              target="_blank"
-            >
-              <i class="fab fa-dribbble"> </i>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 ml-auto mr-auto">
-          <div class="card card-coin card-plain">
-            <div class="card-header">
-              <img
-                class="img-center img-fluid rounded-circle"
-                src="assets/img/mike.jpg"
-              />
-
-              <h4 class="title">Transactions</h4>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <h1 class="profile-title text-left">Estrategia de arborización</h1>
+                <h5 class="text-on-back">c</h5>
+                <div class="btn-wrapper profile pt-3">
+                    <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="http://pedroduranbarajas.blogspot.com/p/arborizacin-urbana.html" target="_blank">
+                        <i class="fa fa-paperclip"> </i>
+                    </a>
+                </div>
             </div>
-            <div class="card-body">
-              <tabset
-                class="nav-tabs-danger justify-content-center tab-subcategories"
-              >
-                <tab heading="Wallet">
-                  <div class="table-responsive">
-                    <table class="table tablesorter" id="plain-table">
-                      <thead class="text-danger">
-                        <tr>
-                          <th class="header">COIN</th>
-                          <th class="header">AMOUNT</th>
-                          <th class="header">VALUE</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>BTC</td>
-                          <td>7.342</td>
-                          <td>48,870.75 USD</td>
-                        </tr>
-                        <tr>
-                          <td>ETH</td>
-                          <td>30.737</td>
-                          <td>64,53.30 USD</td>
-                        </tr>
-                        <tr>
-                          <td>XRP</td>
-                          <td>19.242</td>
-                          <td>18,354.96 USD</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </tab>
-                <tab heading="Send">
-                  <div class="row">
-                    <label class="col-sm-3 col-form-label"> Pay to </label>
-                    <div class="col-sm-9">
-                      <div class="form-group">
-                        <input
-                          class="form-control"
-                          placeholder="e.g. 1Nasd92348hU984353hfid"
-                          type="text"
-                        />
+            <div class="col-md-5">
+                <div class="row justify-content-between align-items-center">
+                    <carousel [showIndicators]="true">
+                        <slide>
+                            <img alt="First slide" class="d-block" src="https://1.bp.blogspot.com/-hv9b57d2Ioo/VLADulWGJKI/AAAAAAAAA2w/Dmop9r5yeag/s1600/Arborizaci%C3%B3n%2BSector%2BSur%2BOccidental.jpg" />
 
-                        <span class="form-text">
-                          Please enter a valid address.
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <label class="col-sm-3 col-form-label"> Amount </label>
-                    <div class="col-sm-9">
-                      <div class="form-group">
-                        <input
-                          class="form-control"
-                          placeholder="1.587"
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    class="btn btn-simple btn-danger btn-icon btn-round float-right"
-                    type="submit"
-                  >
-                    <i class="tim-icons icon-send"> </i>
-                  </button>
-                </tab>
-                <tab heading="News">
-                  <div class="table-responsive">
-                    <table class="table tablesorter" id="plain-table">
-                      <thead class="text-danger">
-                        <tr>
-                          <th class="header">Latest Crypto News</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>The Daily: Nexo to Pay on Stable...</td>
-                        </tr>
-                        <tr>
-                          <td>Venezuela Begins Public of Nation...</td>
-                        </tr>
-                        <tr>
-                          <td>PR: BitCanna â Dutch Blockchain...</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </tab>
-              </tabset>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cucuta, Norte de Santander</h5>
+                            </div>
+                        </slide>
+                    </carousel>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="section">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-md-6">
-          <div class="row justify-content-between align-items-center">
-            <carousel [showIndicators]="true">
-              <slide>
-                <img
-                  alt="First slide"
-                  class="d-block"
-                  src="assets/img/denys.jpg"
-                />
 
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Big City Life, United States</h5>
-                </div>
-              </slide>
-              <slide>
-                <img
-                  alt="Second slide"
-                  class="d-block"
-                  src="assets/img/fabien-bazanegue.jpg"
-                />
+    <!--la 3-->
 
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Somewhere Beyond, United States</h5>
-                </div>
-              </slide>
-              <slide>
-                <img
-                  alt="Third slide"
-                  class="d-block"
-                  src="assets/img/mark-finn.jpg"
-                />
+    <!--la 4-->
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <div class="row justify-content-between align-items-center">
+                        <carousel [showIndicators]="true">
+                            <slide>
+                                <img alt="First slide" class="d-block" src="https://pbs.twimg.com/media/EjZ487iXcAAIjGa?format=jpg&name=900x900" />
 
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Stocks, United States</h5>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cucuta, Norte de Santander</h5>
+                                </div>
+                            </slide>
+
+                        </carousel>
+                    </div>
                 </div>
-              </slide>
-            </carousel>
-          </div>
+                <div class="col-md-5">
+                    <h1 class="profile-title text-left">Estrategia de monitoreo de variables de movilidad (Mapa)</h1>
+                    <h5 class="text-on-back">d</h5>
+                    <div class="btn-wrapper pt-3">
+                        <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="https://drive.google.com/drive/folders/17UY6YoRiCAinTRgyFBh4bn_-9xaU0vjP?usp=sharing" target="_blank">
+                            <i class="fa fa-paperclip"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h1 class="profile-title text-left">Projects</h1>
-          <h5 class="text-on-back">02</h5>
-          <p class="profile-description text-left">
-            An artist of considerable range, Ryan â the name taken by
-            Melbourne-raised, Brooklyn-based Nick Murphy â writes, performs and
-            records all of his own music, giving it a warm, intimate feel with a
-            solid groove structure. An artist of considerable range.
-          </p>
-          <div class="btn-wrapper pt-3">
-            <button
-              class="btn btn-simple btn-danger mr-1"
-              href="javascript:void(0)"
-            >
-              <i class="tim-icons icon-book-bookmark"> </i> Bookmark
-            </button>
-            <button class="btn btn-simple btn-info" href="javascript:void(0)">
-              <i class="tim-icons icon-bulb-63"> </i> Check it!
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card card-plain">
-            <div class="card-header">
-              <h1 class="profile-title text-left">Contact</h1>
-              <h5 class="text-on-back">03</h5>
-            </div>
-            <div class="card-body">
-              <form>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label> Your Name </label>
-                      <input class="form-control" type="text" value="Mike" />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label> Email address </label>
-                      <input
-                        class="form-control"
-                        placeholder="mike@email.com"
-                        type="email"
-                      />
-                    </div>
-                  </div>
+    <!--la 4-->
+
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="title">BLK•</h1>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label> Phone </label>
-                      <input
-                        class="form-control"
-                        type="text"
-                        value="001-12321345"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label> Company </label>
-                      <input
-                        class="form-control"
-                        type="text"
-                        value="CreativeTim"
-                      />
-                    </div>
-                  </div>
+                <div class="col-md-3">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/home']"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/landing']"> Landing </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/register']"> Register </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/profile']"> Profile </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label> Message </label>
-                      <input
-                        class="form-control"
-                        placeholder="Hello there!"
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <button
-                  class="btn btn-danger btn-round float-right"
-                  placement="right"
-                  type="submit"
-                >
-                  Send text
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ml-auto">
-          <div class="info info-horizontal">
-            <div class="icon icon-danger">
-              <i class="tim-icons icon-square-pin"> </i>
-            </div>
-            <div class="description">
-              <h4 class="info-title">Find us at the office</h4>
-              <p>
-                Bld Mihail Kogalniceanu, nr. 8, <br />
-
-                7652 Bucharest, <br />
-
-                Romania
-              </p>
-            </div>
-          </div>
-          <div class="info info-horizontal">
-            <div class="icon icon-danger">
-              <i class="tim-icons icon-mobile"> </i>
-            </div>
-            <div class="description">
-              <h4 class="info-title">Give us a ring</h4>
-              <p>
-                Michael Jordan <br />
-
-                +40 762 321 762 <br />
-
-                Mon - Fri, 8:00-22:00
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3"><h1 class="title">BLK•</h1></div>
-        <div class="col-md-3">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/home']"> Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/landing']"> Landing </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/register']"> Register </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/profile']"> Profile </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="https://creative-tim.com/contact-us">
+                <div class="col-md-3">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://creative-tim.com/contact-us">
                 Contact Us
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://creative-tim.com/about-us">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://creative-tim.com/about-us">
                 About Us
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://creative-tim.com/blog">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://creative-tim.com/blog">
                 Blog
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://opensource.org/licenses/MIT">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://opensource.org/licenses/MIT">
                 License
               </a>
-            </li>
-          </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="title">Follow us:</h3>
+                    <div class="btn-wrapper profile">
+                        <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="https://twitter.com/creativetim" target="_blank">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                        <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="https://www.facebook.com/creativetim" target="_blank">
+                            <i class="fab fa-facebook-square"> </i>
+                        </a>
+                        <a class="btn btn-icon btn-neutral btn-round btn-simple" href="https://dribbble.com/creativetim" target="_blank">
+                            <i class="fab fa-dribbble"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3">
-          <h3 class="title">Follow us:</h3>
-          <div class="btn-wrapper profile">
-            <a
-              class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
-              href="https://twitter.com/creativetim"
-              target="_blank"
-            >
-              <i class="fab fa-twitter"> </i>
-            </a>
-            <a
-              class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
-              href="https://www.facebook.com/creativetim"
-              target="_blank"
-            >
-              <i class="fab fa-facebook-square"> </i>
-            </a>
-            <a
-              class="btn btn-icon btn-neutral btn-round btn-simple"
-              href="https://dribbble.com/creativetim"
-              target="_blank"
-            >
-              <i class="fab fa-dribbble"> </i>
-            </a>
-          </div>
+    </footer> -->
+    <!--NUEV FOOTER-->
+    <!--Footer-->
+    <div class="footer-top">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <div class="row">
+
+                        <div class="col-sm-6">
+
+                            <div class="footer-newsletter">
+                                <h3>•ArchITecture•</h3>
+                                <p style="text-align: justify;">ArchITecture es una iniciativa de profesores y estudiantes de la UFPS de los programas de Arquitectura e Ingeniería de Sistemas para lideras la transformación digital de la región desde la Arquitectura y aprovechando las
+                                    TIC (Tecnologías de Información y Comunicación en inglés IT Information Technology)</p>
+                                <br>
+
+                            </div>
+                            <br>
+
+                            <!-- <div class="footer-newsletter">
+                              <h4>INSTITUCIÓN</h4>
+                              <p style="text-align: justify;">RISKO nace bajo un proyecto del grupo de investigación GIDIS (Grupo de Investigación y Desarrollo de Ingeneria del Sofware) pertenenciente a la Universidad Francisco de Paula Santander en Cúcuta, Colombia.</p>
+
+                          </div> -->
+                            <!-- <a href="https://studentsprojects.cloud.ufps.edu.co">
+                              <img src="../../../assets/img/ingsistemas.png" width="100" height="100" alt="Image"></a> &nbsp;
+                          <br> -->
+                            <a href="https://ww2.ufps.edu.co/">
+                                <img src="../../../assets/img/Logo-vertical.jpg" width="100" height="100" alt="Image"></a>
+                            <br>
+                            <a href="https://https://ww2.ufps.edu.co/oferta-academica/arquitectura/170/">
+                                <img src="../../../assets/img/arquitectura.png" width="100" height="100" alt="Image"></a>
+
+                        </div>
+
+                        <div class="col-sm-6">
+                            <!-- <div class="footer-links">
+                              <h4>LINKS DE INTERÉS</h4>
+                              <ul>
+                                  <li><a href="#intro">Inicio</a></li>
+                                  <li><a href="/risko/manual/">Manual de usuario</a></li>
+                                  <li><a href="/risko/registrargerente/">Registrese</a></li>
+                                  <li><a href="/risko/accounts/login/">Iniciar sesión</a></li>
+                              </ul>
+                          </div> -->
+
+                            <div class="footer-links">
+                                <h4>CONTACTENOS</h4>
+                                <p style="text-align: justify;">
+                                    Programa de Ingeniería de Sistemas de la Universidad Francisco de Paula Santander.<br> Avenida Gran Colombia No. 12E-96 Barrio Colsag, Cúcuta, Colombia. <br>
+                                    <strong>Telefono:</strong> +(57) 7 5776655 Extensiones 201 y 203<br>
+                                    <strong>Correo:</strong> architectureufps@gmail.com<br>
+                                </p>
+                            </div>
+
+                            <div class="social-links">
+                                <label data-toggle="tooltip" data-placement="top" title="" data-original-title="Repositorio GitHub.">
+                      <a href="https://github.com/AVBLANCO/TesisArquitecturaEMVM.git" target="_blank" rel="noopener noreferrer" class="github">
+                          <img src="../../../assets/img/git.png" alt="DockerHub" style="width: 50px; height: 40px;">
+                      </a>
+                    </label>
+                                <!-- <br> -->
+                                <label data-toggle="tooltip" data-placement="top" title="" data-original-title="Repositorio DockerHub.">
+                      <a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="../../../assets/img/docker.png" alt="DockerHub" style="width: 50px; height: 50px;">
+                      </a> 
+                    </label>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="form">
+
+                        <h4>Dejanos un comentario</h4>
+                        <p style="text-align: justify;">Al dejarnos un comentario realizas un gran aporte y nos ayudas a mejorar cada día.</p>
+                        <form method="post" role="form" action="/risko/">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="4t3dPNYt8cLIQlGo86FwTUmhkB53MzdnGkKBkoA5Ajs5zdyJkShdDoYbVjj4KCUa">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" maxlength="80" placeholder="Nombre" data-rule="minlen:4" required="">
+
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" maxlength="80" placeholder="Correo Electronico" data-rule="email" required="">
+
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" maxlength="80" data-rule="required" required="" placeholder="Mensaje"></textarea>
+
+                            </div>
+
+                            <div class="text-center"><button type="submit" title="Send Message">Enviar Comentario</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
         </div>
-      </div>
     </div>
-  </footer>
+    <!--Footer-->
 </div>
