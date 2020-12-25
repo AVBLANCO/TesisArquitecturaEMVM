@@ -20,7 +20,7 @@ import { PopoverModule } from "ngx-bootstrap/popover";
 import { IndexComponent } from "./index/index.component";
 import { ProfilepageComponent } from "./examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./examples/registerpage/registerpage.component";
-import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
+// import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
 import { InformacionComponent } from './examples/informacion/informacion.component';
 import { MapaComponent } from './examples/mapa/mapa.component';
 import { RutasComponent } from './examples/rutas/rutas.component';
@@ -51,7 +51,7 @@ import { VideosComponent } from './examples/videos/videos.component';
     IndexComponent,
     ProfilepageComponent,
     RegisterpageComponent,
-    LandingpageComponent,
+    // LandingpageComponent,
     InformacionComponent,
     MapaComponent,
     RutasComponent,
@@ -62,8 +62,8 @@ import { VideosComponent } from './examples/videos/videos.component';
   exports: [
     IndexComponent,
     ProfilepageComponent,
-    RegisterpageComponent,
-    LandingpageComponent
+    RegisterpageComponent
+    // LandingpageComponent
   ],
   providers: []
 })
