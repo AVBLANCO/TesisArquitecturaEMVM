@@ -1,5 +1,6 @@
 # Stage 0, based on Node.js, to build and compile Angular
-FROM node:latest as node
+FROM node:10-alpine  as node
+RUN mkdir -p /app
 WORKDIR /app
 COPY ./ /app/
 RUN npm install
@@ -10,3 +11,6 @@ RUN npm run build -- --prod --configuration=$configuration
 FROM nginx:alpine
 COPY --from=node /app/dist/docker-angular /usr/share/nginx/html
 COPY ./nginx-custom.conf /etc/nginx/conf.d/default.conf
+
+
+
